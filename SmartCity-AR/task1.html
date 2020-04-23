@@ -10,6 +10,8 @@
              arjs>
         <!-- handle hiro marker -->
         <a-marker preset='hiro'>
+            <a-text value="OV_05!"
+                    scale="1 1 2"></a-text>
             <a-sphere position='0 0.5 0'
                       radius="0.8"
                       material='opacity: 0.5; side: double;color:red;'>
@@ -18,8 +20,6 @@
                               animation="property: rotation; to:360 0 0; dur: 5000; easing: linear; loop: true">
                 </a-torus-knot>
             </a-sphere>
-            <a-text value="OV_05!"
-                    scale="3 1 2"></a-text>
         </a-marker>
 
         <!-- add a camera to the scene that renders the objects for us -->
